@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Newtonsoft.Json;
+
+namespace Restful_API_Quete_1
+{
+    public class User
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string username { get; set; }
+        public string email { get; set; }
+        public Address address { get; set; }
+        public string phone { get; set; }
+        public string website { get; set; }
+        public Company company { get; set; }
+        public List<Post> posts { get; set; }
+    }
+}
